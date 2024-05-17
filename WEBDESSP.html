@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WEBDESSP</title>
+<link href="../../Documents/Anton/css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+	body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    width: 90%;
+  }
+}
+</style>
+<body>
+<div class="form-container">
+ <form id="signup-form" class="form">
+    <h2>Sign Up</h2>
+    <input type="text" id="new-username" placeholder="Email or Username" required>
+    <input type="password" id="new-password" placeholder="Password" required>
+     <button type="submit"><a href="WEBDESFINAL.html">Sign Up</a></button>
+  </form>
+</div>
+</body>
+	<script>
+	document.getElementById('signup-form').addEventListener('submit', function(event) {
+  var newUsername = document.getElementById('new-username').value;
+  var newPassword = document.getElementById('new-password').value;
+  var confirmPassword = document.getElementById('confirm-password').value;
+
+  if (!newUsername || !newPassword || !confirmPassword) {
+    alert('Please fill in all fields.');
+    event.preventDefault();
+  } else if (newPassword !== confirmPassword) {
+    alert('Passwords do not match.');
+    event.preventDefault();
+  }
+});
+	</script>
+</html>

@@ -1,0 +1,37 @@
+{
+        "id": 1,
+        "name": "Nike Air Max Ishod",
+        "price": 107.77,
+        "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d60d89cf-980c-4e0a-8df4-3294bcc57e94/air-max-ishod-shoes-pJPHs6.png"
+    },
+    {
+        "id": 2,
+        "name": "Nike Air Force 1 '07 LV8",
+        "price": 145.93,
+        "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aa5bdbd3-09b6-4701-a6f2-5fc0c5d06a96/air-force-1-07-lv8-shoes-Smph4G.png"
+    },
+    {
+        "id": 3,
+        "name": "Nike Air Max Dn",
+        "price": 145.93,
+        "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5bc5bc81-9e76-444f-93ce-c7e1446f17af/air-max-dn-shoes-FtLNfm.png"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "New Balance 237",
+        "price": 109.98,
+        "image": "https://nb.scene7.com/is/image/NB/u327wga_nb_03_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+    },
+    {
+        "id": 5,
+        "name": "New Balance Fresh Foam X 860v14",
+        "price": 140.04,
+        "image": "https://nb.scene7.com/is/image/NB/m860g14_nb_03_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880"
+    },
+    {
+        "id": 6,
+        "name": "New Balance Men Dynasoft Pro Run v2 / MPRORV2",
+        "price": 73.79,
+        "image": "https://nb.scene7.com/is/image/NB/mprorlg2_nb_03_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600"
+    }

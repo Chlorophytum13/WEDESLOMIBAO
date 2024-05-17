@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Soul</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+    <style>
+     .nav{
+        width: 100%;
+        height: 100px%;
+        background-color: black;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+    .logo{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .navbar{
+        width: 90%;
+        display: flex;
+        justify-content: right;
+        list-style: none;
+    }
+    .navbar li{
+        margin-left: 150px;
+    }
+    .navbar li a{
+        font-size: 15px;
+        color: #000;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+    .navbar li a:hover{
+        color:#ccc;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+    }
+    .search form{
+        display: flex;
+        margin: 0;
+    }
+    .search input{
+        padding: 0px;
+        border: 1px solid #ddd;
+        outline: none;
+        border-radius:  5px;
+        margin-right: 19px;
+        font-size:  16px;
+    }
+    .search input:hover{
+        border: 1px solid #72a0d4;
+    }
+    .search button{
+    padding:10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    }
+    .search button{
+        background-color: #ccc;
+    }
+        footer {
+  display: flex;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+    .abt-us{
+         font-size: 16px;
+        margin-right: 60px;
+    }
+        .fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons{
+  display: flex;
+}
+
+.fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+	{box-sizing: border-box;}
+        li {
+		list-style: none;
+		display: inline-block;
+	}
+	li a{
+        height:auto
+		color: white;
+		font-size: 18px;
+		font-weight: bold;
+		font: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	}
+	.button1 a{
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		margin-right: 2px;
+	}
+	.button1 {
+		background-color: white;
+	}
+    .search{
+        padding-left: 30px;
+    }
+    </style>
+<body>
+
+    <div class="container">
+        <header>
+           <hr>
+    <nav>
+        <ul class="navbar">
+              <div class="logo">In<br>Soul</div>
+            <li><a href="">Home</a></li>
+            <li><a href="WEBDEVAU.html">About Us</a></li>
+             <li><a href="WEBDESCON.html">Contact Us</a></li>
+        <div class="search">
+        <form>
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+            </form>
+        </div>
+            <div class="iconCart">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.YmD7KvdBKIvCCIgIkdg3NAHaHq&pid=Api&P=0&h=180">
+                <div class="totalQuantity">0</div>
+            </div>
+        </ul>
+        
+    </nav>
+    <hr>
+        </header>
+
+        <div class="listProduct">
+
+            <div class="item">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d60d89cf-980c-4e0a-8df4-3294bcc57e94/air-max-ishod-shoes-pJPHs6.png" alt="">
+                <h2>Nike Air Max Ishod</h2>
+                <div class="price">₱6,195</div>
+                <button>Add To Cart</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="cart">
+        <h2>
+            CART
+        </h2>
+        <div class="listCart">
+            <div class="item">
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d60d89cf-980c-4e0a-8df4-3294bcc57e94/air-max-ishod-shoes-pJPHs6.png">
+                <div class="content">
+                    <div class="name">Nike Air Max Ishod</div>
+                    <div class="price">₱6,195 / 1 product</div>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span class="value"></span>
+                    <button>+</button>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="close">
+                CLOSE
+            </div>
+            <div class="checkout">
+                <a href="checkout.html">CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
